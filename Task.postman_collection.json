@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "d54625c6-fecb-4d30-8bf1-fad7a4a8a51c",
+		"name": "Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Filter Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/products?name=Suit 19&pvp=1508",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Suit 19"
+						},
+						{
+							"key": "pvp",
+							"value": "1508"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

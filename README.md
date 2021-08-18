@@ -9,3 +9,4 @@
 - Run __php artisan serve__ to run project
 - launch the main URL
 - On front view search by name or pvp and xml result will appear inside textarea.
+- I have also added postman collection for api result kindly import collection in postman
